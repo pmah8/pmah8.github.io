@@ -48301,8 +48301,7 @@ return A.D($async$wH,r)},
 wZ(a,b,c){return this.a_P(a,b,c)},
 a_P(a,b,c){var s=0,r=A.E(t.i),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e
 var $async$wZ=A.F(function(d,a0){if(d===1){o=a0
-s=p}while(true)switch(s){case 0:i=0
-h=$.cW()
+s=p}while(true)switch(s){case 0:h=$.cW()
 g=h.vd(a)
 f=h.B4(b)
 p=4
@@ -48311,14 +48310,18 @@ if(J.aC2(f)!=="")m=J.rQ(m," AND reseller_id in ("+A.l(f)+")")
 s=7
 return A.y(n.a.it(m),$async$wZ)
 case 7:l=a0
-if(J.b0(l)===1)i=J.aU(J.aU(l,0),"total")
-p=2
+if(J.b0(l)===1){k=J.aU(J.aU(l,0),"total")
+if(k!=null&&typeof k=="number"){q=k
+s=1
+break}else{q=0
+s=1
+break}}p=2
 s=6
 break
 case 4:p=3
 e=o
-k=A.a3(e)
-A.aK("Error in getYearTotal: "+A.l(k))
+j=A.a3(e)
+A.aK("Error in getYearTotal: "+A.l(j))
 A.aK("Returning zero")
 q=0
 s=1
@@ -48327,7 +48330,7 @@ s=6
 break
 case 3:s=2
 break
-case 6:q=i
+case 6:q=0
 s=1
 break
 case 1:return A.C(q,r)
@@ -49386,7 +49389,7 @@ a=A.bt(b,null,a).w
 a6=A.M(b).p3.y.cl(B.m)
 a7=A.M(b).p3.y.HW(B.m,B.ay)
 a8=t.p
-a9=A.bg(null,A.nK(A.c9(A.a([A.aJP(A.cf(A.a([A.cf(null,null,a6,"Welcome to DUM-E.\n\nThe app is comprised of "),A.cf(null,null,a7,"..."),A.cf(null,null,a6," and "),A.cf(null,null,a7,"..."),A.cf(null,null,a6,".\n")],t.VO),null,null,null),null,null,null,null,null,null,null,null,null,null,null),A.bv("Some explanation here",null,null,null,null,null,null,null,A.M(b).p3.y.cl(B.m),null,null,null),B.m6,A.bv("Another explanation here",null,null,null,null,null,null,null,A.M(b).p3.y.cl(B.m),null,null,null),B.bT,A.bv("This app is designed to be as intuitive as possible. However, if you have issues or suggestions. Please contact the developer. Thanks!",null,null,null,null,null,null,null,A.M(b).p3.y.cl(B.m),null,null,null),B.a4K,B.aak],a8),B.x,B.z,B.B),null,B.N,null,null,B.W),B.k,null,null,null,null,a.a.b*0.7,null,null,null,null,null,a2.a.a*0.85)
+a9=A.bg(null,A.nK(A.c9(A.a([A.aJP(A.cf(A.a([A.cf(null,null,a6,"Welcome to DUM-E.\n\nThe app is comprised of "),A.cf(null,null,a7,"..."),A.cf(null,null,a6," and "),A.cf(null,null,a7,"..."),A.cf(null,null,a6,".\n")],t.VO),null,null,null),null,null,null,null,null,null,null,null,null,null,null),A.bv("Some explanation here",null,null,null,null,null,null,null,A.M(b).p3.y.cl(B.m),null,null,null),B.m6,A.bv("Another explanation here",null,null,null,null,null,null,null,A.M(b).p3.y.cl(B.m),null,null,null),B.bT,A.bv("This app is designed to be as intuitive as possible. However, if you have issues or suggestions. Please contact the developer. Thanks!",null,null,null,null,null,null,null,A.M(b).p3.y.cl(B.m),null,null,null),B.a4K,B.aai],a8),B.x,B.z,B.B),null,B.N,null,null,B.W),B.k,null,null,null,null,a.a.b*0.7,null,null,null,null,null,a2.a.a*0.85)
 $.cW().xf(b,"App Help",A.a([a9],a8),"Dismiss",A.ai(242,255,255,255))
 s=3
 break
@@ -49745,7 +49748,7 @@ s.Ec()}}else q.af(new A.aui(q))}},
 G(a){var s,r=this,q=null,p=r.d
 p===$&&A.e()
 p=A.bg(q,A.aXo(!0,B.dT,!0,q,!0,B.ak,q,A.b3e(),p,q,q,q,q,2,B.NI,B.N,!0,q,!0,q,!1,r.e,q,B.ac8,q,q,q,q,q,1,q,q,!0,"\u2022",q,q,q,new A.aug(r),q,q,!1,q,!0,q,B.ox,q,q,B.em,B.cT,q,q,q,q,q,q,B.bA,q,B.a5H,q,q,q,q),B.k,q,q,q,q,q,q,q,q,q,q,200)
-s=r.r?B.aai:B.aan
+s=r.r?B.aaj:B.aan
 return A.v9(q,q,A.eT(new A.bE(B.dJ,A.c9(A.a([p,B.m5,new A.MI(new A.auh(r),q,q,q,q,B.k,q,!1,q,!0,s,B.ac9),B.m5,A.bg(q,A.eT(A.bv(r.x,q,q,q,q,q,q,q,q,q,q,q),q,q),B.k,q,q,q,q,q,q,q,q,q,q,300)],t.p),B.x,B.ck,B.B),q),q,q),q,q,q,q)}}
 A.auj.prototype={
 $0(){var s=this.a
@@ -99538,12 +99541,12 @@ B.Lt=new A.tl(B.W,B.ck,B.B,B.x,null,B.bC,null,B.Wr,null)
 B.be=new A.On(0,"min")
 B.ay=new A.i0(6,700)
 B.a9m=new A.u(!0,B.m,null,null,null,null,20,B.ay,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aaj=new A.dO("Add new List",null,B.a9m,null,null,null,null,null,null,null,null,null,null)
+B.aak=new A.dO("Add new List",null,B.a9m,null,null,null,null,null,null,null,null,null,null)
 B.Mp=new A.aH(0,10,0,0)
 B.a8l=new A.u(!0,B.m,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.aam=new A.dO("Click here to add your first list.",null,B.a8l,null,null,null,null,null,null,null,null,null,null)
 B.a1p=new A.bE(B.Mp,B.aam,null)
-B.RD=A.a(s([B.aaj,B.a1p]),t.p)
+B.RD=A.a(s([B.aak,B.a1p]),t.p)
 B.Lu=new A.tl(B.W,B.ck,B.be,B.x,null,B.bC,null,B.RD,null)
 B.ob=new A.yr(0,"none")
 B.Lv=new A.yr(1,"waiting")
@@ -102948,8 +102951,8 @@ B.a9s=new A.u(!0,B.l,null,"Roboto",null,null,null,null,null,null,null,null,null,
 B.a9e=new A.u(!0,B.l,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.i,null,null,null,"whiteMountainView labelMedium",null,null,null,null)
 B.a8K=new A.u(!0,B.l,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.i,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.aaf=new A.dw(B.a8n,B.a9V,B.a9D,B.a6S,B.a9v,B.a8j,B.aa_,B.a7j,B.a7Y,B.a9i,B.a6J,B.a9F,B.a9s,B.a9e,B.a8K)
-B.aai=new A.dO("Unlock",null,null,null,null,null,null,null,null,null,null,null,null)
-B.aak=new A.dO("v0.01.2",null,null,null,null,null,null,null,null,null,null,null,null)
+B.aai=new A.dO("v0.01.3",null,null,null,null,null,null,null,null,null,null,null,null)
+B.aaj=new A.dO("Unlock",null,null,null,null,null,null,null,null,null,null,null,null)
 B.aal=new A.dO("eset DUM-E",null,null,null,null,null,null,null,null,null,null,null,null)
 B.aan=new A.dO("Please Wait",null,null,null,null,null,null,null,null,null,null,null,null)
 B.afS=new A.ao9(0,"system")
